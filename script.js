@@ -1,6 +1,6 @@
 document.getElementById('search-btn').addEventListener('click', () => {
     const city = document.getElementById('city-input').value;
-    const apiKey = '92433c184ab84cb3ab8184630241807'; 
+    const apiKey = '92433c184ab84cb3ab8184630241807'; //add your weatherApi here
     const url = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}}`;
 
     fetch(url)
